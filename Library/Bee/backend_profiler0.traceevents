@@ -1,0 +1,1045 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1649240043075871, "dur":876, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649240043076757, "dur":204, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1649240043077005, "dur":28, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1649240043077035, "dur":543, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1649240043077615, "dur":1268, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649240043078883, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649240044439151, "dur":181, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649240044439332, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649240044439357, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649240044439361, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649240044439369, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649240044439371, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649240044439377, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649240044439379, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649240044439385, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649240044439387, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649240044439394, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649240044439395, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649240044439402, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649240044439404, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649240044439410, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649240044439412, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649240044439418, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649240044439426, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649240044439463, "dur":1495, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1649240043077810, "dur":1081, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043078911, "dur":4129, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043083050, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1649240043083051, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043083113, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1649240043083116, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043083150, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043083484, "dur":2009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1649240043085496, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1649240043085557, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043085587, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043085617, "dur":751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1649240043086425, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1649240043086502, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043086578, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043086602, "dur":648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1649240043087298, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1649240043087350, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043087376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043087382, "dur":436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1649240043087866, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649240043087914, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043087938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043087942, "dur":170439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649240043258457, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649240043258475, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043258508, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043258514, "dur":54360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649240043312889, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649240043312904, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043312934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043312941, "dur":41979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649240043354937, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649240043354951, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043354982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043355008, "dur":56600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649240043411622, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1649240043411637, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043411665, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043411671, "dur":6083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1649240043417770, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649240043417785, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043417816, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043417822, "dur":20039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649240043437878, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SubsystemsModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1649240043437892, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043437919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043437930, "dur":6160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SubsystemsModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1649240043444107, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649240043444120, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043444167, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043444173, "dur":30775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649240043474965, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SpriteMaskModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1649240043474980, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043475013, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043475019, "dur":7788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SpriteMaskModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1649240043482824, "dur":14354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SpatialTracking.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1649240043497178, "dur":1107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043498293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043498355, "dur":1562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SpatialTracking.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1649240043499935, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649240043499956, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043499988, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043499994, "dur":26042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649240043526052, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649240043526067, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043526100, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043526107, "dur":29607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649240043555735, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.InputLegacyModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1649240043555750, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043555787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043555794, "dur":14060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.InputLegacyModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1649240043569869, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649240043569886, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043569983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043569989, "dur":23455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649240043593478, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649240043593493, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043593522, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043593526, "dur":30890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649240043624455, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ClusterInputModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1649240043624471, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043624504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043624533, "dur":9048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ClusterInputModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1649240043633599, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1649240043633619, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043633648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043633673, "dur":12231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1649240043645922, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AnimationModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1649240043645937, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043645971, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043645978, "dur":9345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AnimationModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1649240043655343, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649240043655357, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043655387, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240043655393, "dur":121115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649240043776526, "dur":235816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649240044012343, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240044012400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240044012408, "dur":2537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649240044014961, "dur":34836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1649240044049799, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240044049859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240044049887, "dur":595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1649240044050497, "dur":161098, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649240044211596, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240044211650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649240044211656, "dur":712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649240044212382, "dur":226771, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043077883, "dur":1081, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043078964, "dur":4124, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043083088, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1649240043083157, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043083192, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043084089, "dur":1476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1649240043085648, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1649240043085731, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043085795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043085801, "dur":729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1649240043086749, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1649240043086812, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043086861, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043086898, "dur":579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1649240043087530, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649240043087586, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043087613, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043087799, "dur":70955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649240043158887, "dur":9540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.XR.LegacyInputHelpers.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1649240043168428, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043168474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043168481, "dur":729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.XR.LegacyInputHelpers.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1649240043169229, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649240043169242, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043169266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043169272, "dur":24753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649240043194045, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VideoModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1649240043194065, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043194101, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043194110, "dur":81035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VideoModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1649240043275161, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649240043275184, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043275213, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043275235, "dur":44639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649240043319890, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649240043319921, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043319967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043319973, "dur":36059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649240043356046, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649240043356060, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043356089, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043356095, "dur":55652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649240043411761, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649240043411774, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043411839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043411844, "dur":44064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649240043455925, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.StreamingModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1649240043455941, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043455973, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043455980, "dur":7007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.StreamingModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1649240043463004, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SpriteShapeModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1649240043463020, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043463068, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043463075, "dur":6397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SpriteShapeModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1649240043469489, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649240043469505, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043469660, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043469668, "dur":27466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649240043497154, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ScreenCaptureModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1649240043497172, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043497207, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043497216, "dur":7693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ScreenCaptureModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1649240043504926, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ProfilerModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1649240043504942, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043504970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043504977, "dur":8435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ProfilerModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1649240043513427, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.PhysicsModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1649240043513448, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043513478, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043513483, "dur":6818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.PhysicsModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1649240043520317, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649240043520328, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043520349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043520353, "dur":43454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649240043563821, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.IMGUIModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1649240043563837, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043563866, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043563872, "dur":5985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.IMGUIModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1649240043569869, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ImageConversionModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1649240043569891, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043569920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043569926, "dur":9404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ImageConversionModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1649240043579352, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.GIModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1649240043579369, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043579496, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043579504, "dur":2010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.GIModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1649240043581533, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.GameCenterModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1649240043581549, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043581579, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043581585, "dur":6497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.GameCenterModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1649240043588099, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.DSPGraphModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1649240043588115, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043588147, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043588154, "dur":7076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.DSPGraphModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1649240043595248, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649240043595263, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043595298, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043595304, "dur":31518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649240043626854, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ClothModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1649240043626870, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043626906, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043626916, "dur":6600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ClothModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1649240043633531, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649240043633546, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043633576, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043633583, "dur":46327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649240043679929, "dur":8752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1649240043688682, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043688731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043688740, "dur":776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1649240043689537, "dur":4967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649240043694504, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043694566, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043694572, "dur":545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649240043695133, "dur":6897, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.Oculus.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1649240043702031, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043702089, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043702096, "dur":611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.Oculus.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1649240043702727, "dur":6115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.Interaction.Toolkit.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1649240043708842, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043708900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043708907, "dur":839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.Interaction.Toolkit.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1649240043709763, "dur":60762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.Interaction.Toolkit.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649240043770525, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043770581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043770588, "dur":741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.Interaction.Toolkit.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649240043771345, "dur":67746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649240043839092, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043839149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043839178, "dur":5355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649240043844558, "dur":620, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649240043845179, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043845227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043845235, "dur":127041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649240043972293, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649240043972307, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043972343, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240043972350, "dur":89649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649240044062015, "dur":6231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1649240044068246, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240044068293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240044068301, "dur":12719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1649240044081044, "dur":25155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1649240044106199, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240044106255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240044106262, "dur":539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1649240044106814, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Photon3Unity3D.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1649240044106827, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240044106870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240044106876, "dur":9940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Photon3Unity3D.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1649240044116831, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649240044116844, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240044116876, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649240044116882, "dur":95787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649240044212692, "dur":226472, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043078080, "dur":890, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043078970, "dur":4116, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043083087, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1649240043083177, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043083255, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043154171, "dur":834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1649240043155078, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.XRModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1649240043155099, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043155126, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043155145, "dur":7418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.XRModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1649240043162580, "dur":111529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649240043274110, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043274150, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043274158, "dur":567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649240043274741, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VehiclesModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1649240043274756, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043274782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043274787, "dur":6541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VehiclesModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1649240043281344, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649240043281364, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043281423, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043281430, "dur":27137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649240043308585, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649240043308600, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043308631, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043308638, "dur":39688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649240043348343, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649240043348362, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043348387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043348393, "dur":32488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649240043380897, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649240043380910, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043380944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043381055, "dur":26375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649240043407448, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649240043407463, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043407497, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043407504, "dur":52687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649240043460209, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649240043460224, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043460263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043460270, "dur":31881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649240043492168, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649240043492183, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043492216, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043492224, "dur":36078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649240043528324, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1649240043528342, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043528401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043528408, "dur":10136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1649240043538571, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649240043538593, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043538631, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043538637, "dur":30401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649240043569055, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649240043569072, "dur":276, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043569425, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043569437, "dur":86673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649240043656126, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AIModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1649240043656139, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043656170, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043656175, "dur":6711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AIModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1649240043662902, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649240043662916, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043662950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043662957, "dur":34900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649240043697871, "dur":29742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649240043727614, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043727668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043727675, "dur":1003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649240043728693, "dur":82966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649240043811659, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043811712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043811719, "dur":2880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649240043814614, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649240043814630, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043814660, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043814667, "dur":142206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649240043956893, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649240043956910, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043956943, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240043956950, "dur":38345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649240043995311, "dur":15351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1649240044010663, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240044010718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240044010725, "dur":723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1649240044011468, "dur":106601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649240044118070, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240044118124, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240044118132, "dur":2150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649240044120302, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649240044120317, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240044120356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240044120362, "dur":41144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649240044161534, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Plugins/x86_64/UnityOpenXR.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649240044161586, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240044161630, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240044161967, "dur":836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Plugins/x86_64/UnityOpenXR.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649240044162820, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Plugins/x86_64/openxr_loader.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649240044162838, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240044162861, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240044162891, "dur":16144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Plugins/x86_64/openxr_loader.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649240044179059, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/UnitySubsystems/OculusXRPlugin/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":3, "ts":1649240044179076, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240044179112, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240044179277, "dur":1839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/UnitySubsystems/OculusXRPlugin/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":3, "ts":1649240044181132, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1649240044181150, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240044181168, "dur":742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1649240044181926, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1649240044181943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240044181948, "dur":751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1649240044182713, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1649240044182801, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240044182835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240044182840, "dur":5549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1649240044188405, "dur":1290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1649240044189695, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240044189727, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240044189732, "dur":505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1649240044190250, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1649240044190267, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240044190271, "dur":1261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1649240044191546, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1649240044191569, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240044191575, "dur":712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1649240044192301, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1649240044192319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649240044192324, "dur":867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1649240044193209, "dur":245940, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043078107, "dur":872, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043078979, "dur":4080, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043083060, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1649240043083148, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043083209, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043084025, "dur":1461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1649240043085542, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1649240043085591, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043085617, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043085625, "dur":676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1649240043086357, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1649240043086413, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043086483, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043086579, "dur":703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1649240043087329, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1649240043087378, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043087405, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043087410, "dur":1415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1649240043088878, "dur":64775, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer.exe" }}
+,{ "pid":12345, "tid":4, "ts":1649240043153654, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043153709, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043153717, "dur":38593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer.exe" }}
+,{ "pid":12345, "tid":4, "ts":1649240043192324, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649240043192342, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043192385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043192397, "dur":87995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649240043280407, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649240043280441, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043280468, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043280473, "dur":35757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649240043316270, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649240043316328, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043316394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043316401, "dur":31591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649240043348010, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UmbraModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1649240043348026, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043348058, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043348067, "dur":7139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UmbraModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1649240043355219, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UIElementsNativeModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1649240043355233, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043355260, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043355265, "dur":15900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UIElementsNativeModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1649240043371181, "dur":10931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1649240043382113, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043382162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043382168, "dur":2324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1649240043384507, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TilemapModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1649240043384523, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043384562, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043384568, "dur":12272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TilemapModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1649240043396857, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TextRenderingModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1649240043396873, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043396903, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043396911, "dur":10985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TextRenderingModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1649240043407910, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1649240043407924, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043407952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043407958, "dur":7260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1649240043415237, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TerrainPhysicsModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1649240043415264, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043415373, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043415379, "dur":11307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TerrainPhysicsModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1649240043426702, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TerrainModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1649240043426717, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043426751, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043426757, "dur":7284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TerrainModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1649240043434056, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649240043434069, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043434097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043434103, "dur":42760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649240043476880, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649240043476895, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043476990, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043476997, "dur":26023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649240043503036, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1649240043503054, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043503092, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043503100, "dur":10543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1649240043513670, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649240043513686, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043513737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043513743, "dur":37459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649240043551222, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.InputModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1649240043551235, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043551267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043551274, "dur":11873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.InputModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1649240043563163, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649240043563179, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043563214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043563221, "dur":37113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649240043600366, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.CrashReportingModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1649240043600398, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043600428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043600434, "dur":6024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.CrashReportingModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1649240043606479, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.CoreModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1649240043606494, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043606646, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043606654, "dur":9922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.CoreModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1649240043616596, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ClusterRendererModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1649240043616612, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043616649, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043616668, "dur":1586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ClusterRendererModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1649240043618272, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649240043618286, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043618315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043618322, "dur":22878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649240043641218, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ARModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1649240043641233, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043641267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043641274, "dur":1825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ARModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1649240043643115, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649240043643129, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043643158, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043643164, "dur":20986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649240043664165, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649240043664189, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043664238, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043664243, "dur":22784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649240043687043, "dur":23259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649240043710303, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043710342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043710348, "dur":576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649240043710939, "dur":83388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.CoreUtils.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649240043794328, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043794370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043794377, "dur":533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.CoreUtils.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649240043794923, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649240043794936, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043794966, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043795050, "dur":71384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649240043866450, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649240043866464, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043866495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043866501, "dur":68125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649240043934642, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649240043934656, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043934689, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240043934695, "dur":131052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649240044065764, "dur":123869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649240044189698, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240044189760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240044189766, "dur":550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649240044190329, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1649240044190345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240044190349, "dur":790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1649240044191154, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1649240044191171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240044191175, "dur":1533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1649240044192721, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1649240044192807, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240044192854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649240044192859, "dur":540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1649240044193431, "dur":245720, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043078138, "dur":851, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043078989, "dur":4056, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043083050, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1649240043083168, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043083234, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043084425, "dur":1520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1649240043086005, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1649240043086051, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043086080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043086931, "dur":607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1649240043087587, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649240043087642, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043087669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043087673, "dur":839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649240043088569, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1649240043088616, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043088647, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043088653, "dur":77084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1649240043165801, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.WindModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1649240043165825, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043165879, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043165886, "dur":7899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.WindModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1649240043173802, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VRModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1649240043173824, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043173852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043173859, "dur":9136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VRModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1649240043183010, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649240043183023, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043183048, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043183054, "dur":91482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649240043274551, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649240043274570, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043274595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043274600, "dur":39285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649240043313902, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityCurlModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1649240043313918, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043313954, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043313961, "dur":12138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityCurlModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1649240043326201, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1649240043326274, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043326315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043326321, "dur":14836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1649240043341174, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649240043341187, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043341217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043341225, "dur":69405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649240043410646, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649240043410662, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043410718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043410729, "dur":108912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649240043519667, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.Physics2DModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1649240043519691, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043519728, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043519734, "dur":14523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.Physics2DModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1649240043534274, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.NVIDIAModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1649240043534287, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043534313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043534318, "dur":10521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.NVIDIAModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1649240043544853, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649240043544872, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043544901, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043544907, "dur":28088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649240043573018, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.HotReloadModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1649240043573034, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043573070, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043573078, "dur":10285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.HotReloadModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1649240043583382, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649240043583397, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043583426, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043583433, "dur":44753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649240043628203, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649240043628307, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043628415, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043628424, "dur":26060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649240043654503, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AndroidJNIModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1649240043654519, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043654556, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043654563, "dur":9019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AndroidJNIModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1649240043663598, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AccessibilityModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1649240043663612, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043663642, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043663648, "dur":11623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AccessibilityModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1649240043675497, "dur":6191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1649240043681689, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043681742, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043681749, "dur":599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1649240043682363, "dur":1797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649240043684161, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043684215, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043684223, "dur":615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649240043684858, "dur":6920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1649240043691779, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043691836, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043691844, "dur":601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1649240043692461, "dur":72480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649240043764942, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043764994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043765001, "dur":577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649240043765598, "dur":5965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1649240043771563, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043771601, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043771614, "dur":552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1649240043772179, "dur":6132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1649240043778312, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043778358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043778366, "dur":635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1649240043779099, "dur":1757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649240043780857, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043780917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043780925, "dur":8944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649240043789910, "dur":9240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.InputSystem.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1649240043799151, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043799207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043799214, "dur":1012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.InputSystem.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1649240043800244, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649240043800259, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043800288, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043800295, "dur":182170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649240043982485, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649240043982552, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043982637, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240043982654, "dur":101437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649240044084109, "dur":52655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649240044136764, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240044136808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240044136815, "dur":464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649240044137292, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649240044137305, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240044137329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649240044137335, "dur":128216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649240044265568, "dur":173586, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043078167, "dur":828, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043078995, "dur":4049, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043083050, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1649240043083164, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043083243, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043153922, "dur":541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1649240043154685, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649240043154706, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043154739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043154854, "dur":125461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649240043280331, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1649240043280349, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043280380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043280387, "dur":8468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1649240043288871, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1649240043288891, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043288922, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043288927, "dur":14257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1649240043303203, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1649240043303222, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043303273, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043303281, "dur":5944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1649240043309240, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityTestProtocolModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1649240043309254, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043309281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043309288, "dur":8012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityTestProtocolModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1649240043317316, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityConnectModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1649240043317331, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043317360, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043317365, "dur":10100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityConnectModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1649240043327482, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649240043327497, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043327528, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043327535, "dur":52429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649240043379983, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TLSModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1649240043379999, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043380118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043380125, "dur":11496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TLSModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1649240043391636, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649240043391650, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043391679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043391685, "dur":52881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649240043444579, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SubstanceModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1649240043444592, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043444618, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043444623, "dur":9655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SubstanceModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1649240043454296, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649240043454310, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043454340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043454348, "dur":31463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649240043485828, "dur":26296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649240043512125, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043512176, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043512183, "dur":501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649240043512697, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649240043512711, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043512736, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043512747, "dur":21244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649240043534008, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649240043534024, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043534054, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043534060, "dur":46631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649240043580709, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649240043580724, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043580756, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043580763, "dur":31347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649240043612130, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649240043612145, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043612177, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043612184, "dur":104932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649240043717136, "dur":5819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1649240043722956, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043723009, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043723016, "dur":511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1649240043723541, "dur":6656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1649240043730198, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043730247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043730254, "dur":647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1649240043730915, "dur":6627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1649240043737543, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043737605, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043737612, "dur":701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1649240043738330, "dur":62799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649240043801130, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043801178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043801184, "dur":2357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649240043803558, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649240043803644, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043803683, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043803689, "dur":53492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649240043857200, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649240043857214, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043857246, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043857253, "dur":77394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649240043934663, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649240043934680, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043934711, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240043934715, "dur":186084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649240044120813, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649240044120826, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240044120856, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649240044120867, "dur":318249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649240044439130, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":6, "ts":1649240044439132, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043078203, "dur":798, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043079001, "dur":4085, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043083086, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1649240043083190, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043083262, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043155418, "dur":797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1649240043156279, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649240043156302, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043156328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043156345, "dur":124499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649240043280858, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1649240043280874, "dur":188, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043281068, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043281074, "dur":7684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1649240043288776, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649240043288796, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043288825, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043288832, "dur":79737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649240043368641, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649240043368657, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043368687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043368693, "dur":155726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649240043524437, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.PerformanceReportingModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1649240043524454, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043524492, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043524886, "dur":9494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.PerformanceReportingModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1649240043534411, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649240043534428, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043534457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043534462, "dur":38567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649240043573041, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649240043573054, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043573077, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043573081, "dur":26591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649240043599690, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.DirectorModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1649240043599707, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043599739, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043599746, "dur":4275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.DirectorModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1649240043604038, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649240043604056, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043604093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043604100, "dur":24611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649240043628742, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AudioModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1649240043628757, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043628785, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043628790, "dur":8415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AudioModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1649240043637222, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649240043637237, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043637276, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043637283, "dur":49098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649240043686399, "dur":1061, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649240043687461, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043687503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043687511, "dur":569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649240043688098, "dur":6326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1649240043694425, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043694485, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043694492, "dur":660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1649240043695168, "dur":55118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.Oculus.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649240043750287, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043750369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043750376, "dur":966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.Oculus.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649240043751357, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649240043751373, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043751407, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043751413, "dur":60731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649240043812159, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649240043812173, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043812201, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043812206, "dur":72464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649240043884688, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649240043884702, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043884731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043884753, "dur":72753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649240043957523, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649240043957537, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043957586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240043957592, "dur":110116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649240044067733, "dur":9278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1649240044077012, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240044077064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240044077071, "dur":617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1649240044077701, "dur":91490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649240044169192, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240044169245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240044169252, "dur":2827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649240044172096, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":7, "ts":1649240044172115, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240044172151, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240044172464, "dur":17097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":7, "ts":1649240044189580, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1649240044189599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649240044189605, "dur":5248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1649240044194872, "dur":244280, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043078226, "dur":782, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043079008, "dur":4052, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043083060, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1649240043083144, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043083179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043084019, "dur":1484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1649240043085551, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1649240043085603, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043085687, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043085692, "dur":789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1649240043086583, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1649240043086639, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043086664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043086672, "dur":788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1649240043087513, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649240043087566, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043087594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043087787, "dur":66118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649240043153970, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1649240043154024, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043154053, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043154171, "dur":37244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1649240043191476, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VirtualTexturingModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1649240043191505, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043191537, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043191544, "dur":80299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VirtualTexturingModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1649240043271861, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VFXModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1649240043271882, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043271911, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043271917, "dur":13186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VFXModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1649240043285120, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1649240043285137, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043285178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043285184, "dur":16722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1649240043301924, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649240043301947, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043301977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043301984, "dur":33802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649240043335804, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UNETModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1649240043335818, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043335883, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043335890, "dur":17345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UNETModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1649240043353253, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UIModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1649240043353267, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043353301, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043353308, "dur":15251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UIModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1649240043368575, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UIElementsModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1649240043368593, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043368627, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043368634, "dur":7791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UIElementsModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1649240043376446, "dur":107653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649240043484099, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043484147, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043484154, "dur":3033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649240043487204, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SharedInternalsModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1649240043487221, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043487330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043487338, "dur":16332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SharedInternalsModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1649240043503685, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649240043503705, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043503754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043503760, "dur":25661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649240043529441, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ParticleSystemModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1649240043529469, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043529504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043529512, "dur":8030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ParticleSystemModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1649240043537565, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.LocalizationModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1649240043537581, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043537614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043537642, "dur":6610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.LocalizationModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1649240043544270, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.JSONSerializeModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1649240043544284, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043544314, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043544320, "dur":8268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.JSONSerializeModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1649240043552604, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649240043552619, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043552650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043552657, "dur":21143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649240043573823, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.GridModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1649240043573841, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043573889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043573896, "dur":1415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.GridModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1649240043575328, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649240043575349, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043575407, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043575438, "dur":24442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649240043599896, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649240043599911, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043599940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043599946, "dur":25350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649240043625311, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649240043625328, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043625379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043625385, "dur":23693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649240043649097, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649240043649112, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043649154, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043649161, "dur":37765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649240043686945, "dur":9647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1649240043696593, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043696653, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043696688, "dur":1078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1649240043697789, "dur":11503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.Management.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1649240043709293, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043709334, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043709339, "dur":591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.Management.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1649240043709943, "dur":6295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.CoreUtils.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1649240043716239, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043717106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043717114, "dur":504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.CoreUtils.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1649240043717631, "dur":59236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649240043776868, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043776907, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043776914, "dur":665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649240043777600, "dur":12496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.Subsystem.Registration.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1649240043790097, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043790140, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043790147, "dur":3947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.Subsystem.Registration.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1649240043794112, "dur":88462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649240043882574, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043882644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043882651, "dur":1042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649240043883708, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649240043883723, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043883754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043883760, "dur":32954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649240043916733, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649240043916756, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043916794, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043916801, "dur":30894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649240043947712, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649240043947727, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043947760, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240043947767, "dur":195926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649240044143711, "dur":7936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1649240044151662, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240044151670, "dur":626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1649240044152309, "dur":59299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649240044211615, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649240044211623, "dur":661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649240044212299, "dur":226849, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649240044441923, "dur":4048, "ph":"X", "name": "ProfilerWriteOutput" }
+,
