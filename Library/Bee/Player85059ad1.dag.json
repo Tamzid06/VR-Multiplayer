@@ -257,7 +257,16 @@
         249,
         250,
         251,
-        252
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 0
@@ -406,15 +415,26 @@
       "DebugActionIndex": 13
     },
     {
-      "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Plugins/x86_64/openxr_loader.dll",
+      "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Plugins/x86_64/AudioIn.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/PackageCache/com.unity.xr.openxr@1.3.1/RuntimeLoaders/windows/x64/openxr_loader.dll"
+        "Assets/Photon/PhotonVoice/PhotonVoiceLibs/x86_64/AudioIn.dll"
       ],
       "Outputs": [
-        "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Plugins/x86_64/openxr_loader.dll"
+        "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Plugins/x86_64/AudioIn.dll"
       ],
       "DebugActionIndex": 14
+    },
+    {
+      "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Plugins/x86_64/webrtc-audio.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/Photon/PhotonVoice/PhotonVoiceLibs/x86_64/webrtc-audio.dll"
+      ],
+      "Outputs": [
+        "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Plugins/x86_64/webrtc-audio.dll"
+      ],
+      "DebugActionIndex": 15
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Plugins/x86_64/UnityOpenXR.dll",
@@ -425,7 +445,29 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Plugins/x86_64/UnityOpenXR.dll"
       ],
-      "DebugActionIndex": 15
+      "DebugActionIndex": 16
+    },
+    {
+      "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Plugins/x86_64/openxr_loader.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PackageCache/com.unity.xr.openxr@1.3.1/RuntimeLoaders/windows/x64/openxr_loader.dll"
+      ],
+      "Outputs": [
+        "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Plugins/x86_64/openxr_loader.dll"
+      ],
+      "DebugActionIndex": 17
+    },
+    {
+      "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Plugins/x86_64/opus_egpv.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/Photon/PhotonVoice/PhotonVoiceLibs/x86_64/opus_egpv.dll"
+      ],
+      "Outputs": [
+        "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Plugins/x86_64/opus_egpv.dll"
+      ],
+      "DebugActionIndex": 18
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Assembly-CSharp.dll",
@@ -436,7 +478,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Assembly-CSharp.dll"
       ],
-      "DebugActionIndex": 16
+      "DebugActionIndex": 19
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Assembly-CSharp.pdb",
@@ -447,7 +489,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Assembly-CSharp.pdb"
       ],
-      "DebugActionIndex": 17
+      "DebugActionIndex": 20
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Mono.Security.dll",
@@ -458,7 +500,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Mono.Security.dll"
       ],
-      "DebugActionIndex": 18
+      "DebugActionIndex": 21
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/mscorlib.dll",
@@ -469,7 +511,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/mscorlib.dll"
       ],
-      "DebugActionIndex": 19
+      "DebugActionIndex": 22
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/netstandard.dll",
@@ -480,7 +522,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/netstandard.dll"
       ],
-      "DebugActionIndex": 20
+      "DebugActionIndex": 23
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Photon3Unity3D.dll",
@@ -491,7 +533,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Photon3Unity3D.dll"
       ],
-      "DebugActionIndex": 21
+      "DebugActionIndex": 24
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Photon3Unity3D.pdb",
@@ -502,7 +544,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Photon3Unity3D.pdb"
       ],
-      "DebugActionIndex": 22
+      "DebugActionIndex": 25
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonChat.dll",
@@ -513,7 +555,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonChat.dll"
       ],
-      "DebugActionIndex": 23
+      "DebugActionIndex": 26
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonChat.pdb",
@@ -524,7 +566,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonChat.pdb"
       ],
-      "DebugActionIndex": 24
+      "DebugActionIndex": 27
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonRealtime.dll",
@@ -535,7 +577,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonRealtime.dll"
       ],
-      "DebugActionIndex": 25
+      "DebugActionIndex": 28
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonRealtime.pdb",
@@ -546,7 +588,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonRealtime.pdb"
       ],
-      "DebugActionIndex": 26
+      "DebugActionIndex": 29
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonUnityNetworking.Demos.dll",
@@ -557,7 +599,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonUnityNetworking.Demos.dll"
       ],
-      "DebugActionIndex": 27
+      "DebugActionIndex": 30
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonUnityNetworking.Demos.pdb",
@@ -568,7 +610,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonUnityNetworking.Demos.pdb"
       ],
-      "DebugActionIndex": 28
+      "DebugActionIndex": 31
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonUnityNetworking.dll",
@@ -579,7 +621,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonUnityNetworking.dll"
       ],
-      "DebugActionIndex": 29
+      "DebugActionIndex": 32
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonUnityNetworking.pdb",
@@ -590,7 +632,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonUnityNetworking.pdb"
       ],
-      "DebugActionIndex": 30
+      "DebugActionIndex": 33
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonUnityNetworking.Utilities.dll",
@@ -601,7 +643,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonUnityNetworking.Utilities.dll"
       ],
-      "DebugActionIndex": 31
+      "DebugActionIndex": 34
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonUnityNetworking.Utilities.pdb",
@@ -612,7 +654,73 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonUnityNetworking.Utilities.pdb"
       ],
-      "DebugActionIndex": 32
+      "DebugActionIndex": 35
+    },
+    {
+      "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonVoice.API.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/PhotonVoice.API.dll"
+      ],
+      "Outputs": [
+        "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonVoice.API.dll"
+      ],
+      "DebugActionIndex": 36
+    },
+    {
+      "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonVoice.API.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/PhotonVoice.API.pdb"
+      ],
+      "Outputs": [
+        "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonVoice.API.pdb"
+      ],
+      "DebugActionIndex": 37
+    },
+    {
+      "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonVoice.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/PhotonVoice.dll"
+      ],
+      "Outputs": [
+        "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonVoice.dll"
+      ],
+      "DebugActionIndex": 38
+    },
+    {
+      "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonVoice.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/PhotonVoice.pdb"
+      ],
+      "Outputs": [
+        "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonVoice.pdb"
+      ],
+      "DebugActionIndex": 39
+    },
+    {
+      "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonVoice.PUN.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/PhotonVoice.PUN.dll"
+      ],
+      "Outputs": [
+        "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonVoice.PUN.dll"
+      ],
+      "DebugActionIndex": 40
+    },
+    {
+      "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonVoice.PUN.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/PhotonVoice.PUN.pdb"
+      ],
+      "Outputs": [
+        "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/PhotonVoice.PUN.pdb"
+      ],
+      "DebugActionIndex": 41
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.ComponentModel.Composition.dll",
@@ -623,7 +731,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.ComponentModel.Composition.dll"
       ],
-      "DebugActionIndex": 33
+      "DebugActionIndex": 42
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Configuration.dll",
@@ -634,7 +742,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Configuration.dll"
       ],
-      "DebugActionIndex": 34
+      "DebugActionIndex": 43
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Core.dll",
@@ -645,7 +753,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Core.dll"
       ],
-      "DebugActionIndex": 35
+      "DebugActionIndex": 44
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Data.DataSetExtensions.dll",
@@ -656,7 +764,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Data.DataSetExtensions.dll"
       ],
-      "DebugActionIndex": 36
+      "DebugActionIndex": 45
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Data.dll",
@@ -667,7 +775,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Data.dll"
       ],
-      "DebugActionIndex": 37
+      "DebugActionIndex": 46
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.dll",
@@ -678,7 +786,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.dll"
       ],
-      "DebugActionIndex": 38
+      "DebugActionIndex": 47
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Drawing.dll",
@@ -689,7 +797,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Drawing.dll"
       ],
-      "DebugActionIndex": 39
+      "DebugActionIndex": 48
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.EnterpriseServices.dll",
@@ -700,7 +808,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.EnterpriseServices.dll"
       ],
-      "DebugActionIndex": 40
+      "DebugActionIndex": 49
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.IO.Compression.dll",
@@ -711,7 +819,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.IO.Compression.dll"
       ],
-      "DebugActionIndex": 41
+      "DebugActionIndex": 50
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.IO.Compression.FileSystem.dll",
@@ -722,7 +830,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.IO.Compression.FileSystem.dll"
       ],
-      "DebugActionIndex": 42
+      "DebugActionIndex": 51
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Net.Http.dll",
@@ -733,7 +841,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Net.Http.dll"
       ],
-      "DebugActionIndex": 43
+      "DebugActionIndex": 52
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Numerics.dll",
@@ -744,7 +852,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Numerics.dll"
       ],
-      "DebugActionIndex": 44
+      "DebugActionIndex": 53
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Runtime.Serialization.dll",
@@ -755,7 +863,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Runtime.Serialization.dll"
       ],
-      "DebugActionIndex": 45
+      "DebugActionIndex": 54
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Security.dll",
@@ -766,7 +874,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Security.dll"
       ],
-      "DebugActionIndex": 46
+      "DebugActionIndex": 55
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.ServiceModel.Internals.dll",
@@ -777,7 +885,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.ServiceModel.Internals.dll"
       ],
-      "DebugActionIndex": 47
+      "DebugActionIndex": 56
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Transactions.dll",
@@ -788,7 +896,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Transactions.dll"
       ],
-      "DebugActionIndex": 48
+      "DebugActionIndex": 57
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Xml.dll",
@@ -799,7 +907,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Xml.dll"
       ],
-      "DebugActionIndex": 49
+      "DebugActionIndex": 58
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Xml.Linq.dll",
@@ -810,7 +918,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/System.Xml.Linq.dll"
       ],
-      "DebugActionIndex": 50
+      "DebugActionIndex": 59
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.InputSystem.dll",
@@ -821,7 +929,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.InputSystem.dll"
       ],
-      "DebugActionIndex": 51
+      "DebugActionIndex": 60
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.InputSystem.pdb",
@@ -832,7 +940,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.InputSystem.pdb"
       ],
-      "DebugActionIndex": 52
+      "DebugActionIndex": 61
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.Subsystem.Registration.dll",
@@ -843,7 +951,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.Subsystem.Registration.dll"
       ],
-      "DebugActionIndex": 53
+      "DebugActionIndex": 62
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.Subsystem.Registration.pdb",
@@ -854,7 +962,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.Subsystem.Registration.pdb"
       ],
-      "DebugActionIndex": 54
+      "DebugActionIndex": 63
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.TextMeshPro.dll",
@@ -865,7 +973,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.TextMeshPro.dll"
       ],
-      "DebugActionIndex": 55
+      "DebugActionIndex": 64
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.TextMeshPro.pdb",
@@ -876,7 +984,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.TextMeshPro.pdb"
       ],
-      "DebugActionIndex": 56
+      "DebugActionIndex": 65
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.Timeline.dll",
@@ -887,7 +995,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.Timeline.dll"
       ],
-      "DebugActionIndex": 57
+      "DebugActionIndex": 66
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.Timeline.pdb",
@@ -898,7 +1006,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.Timeline.pdb"
       ],
-      "DebugActionIndex": 58
+      "DebugActionIndex": 67
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
@@ -909,7 +1017,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
       ],
-      "DebugActionIndex": 59
+      "DebugActionIndex": 68
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.VisualScripting.Core.dll",
@@ -920,7 +1028,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.VisualScripting.Core.dll"
       ],
-      "DebugActionIndex": 60
+      "DebugActionIndex": 69
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.VisualScripting.Core.pdb",
@@ -931,7 +1039,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.VisualScripting.Core.pdb"
       ],
-      "DebugActionIndex": 61
+      "DebugActionIndex": 70
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.VisualScripting.Flow.dll",
@@ -942,7 +1050,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.VisualScripting.Flow.dll"
       ],
-      "DebugActionIndex": 62
+      "DebugActionIndex": 71
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.VisualScripting.Flow.pdb",
@@ -953,7 +1061,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.VisualScripting.Flow.pdb"
       ],
-      "DebugActionIndex": 63
+      "DebugActionIndex": 72
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.VisualScripting.State.dll",
@@ -964,7 +1072,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.VisualScripting.State.dll"
       ],
-      "DebugActionIndex": 64
+      "DebugActionIndex": 73
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.VisualScripting.State.pdb",
@@ -975,7 +1083,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.VisualScripting.State.pdb"
       ],
-      "DebugActionIndex": 65
+      "DebugActionIndex": 74
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.CoreUtils.dll",
@@ -986,7 +1094,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.CoreUtils.dll"
       ],
-      "DebugActionIndex": 66
+      "DebugActionIndex": 75
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.CoreUtils.pdb",
@@ -997,7 +1105,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.CoreUtils.pdb"
       ],
-      "DebugActionIndex": 67
+      "DebugActionIndex": 76
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.Interaction.Toolkit.dll",
@@ -1008,7 +1116,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.Interaction.Toolkit.dll"
       ],
-      "DebugActionIndex": 68
+      "DebugActionIndex": 77
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.Interaction.Toolkit.pdb",
@@ -1019,7 +1127,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.Interaction.Toolkit.pdb"
       ],
-      "DebugActionIndex": 69
+      "DebugActionIndex": 78
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.Management.dll",
@@ -1030,7 +1138,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.Management.dll"
       ],
-      "DebugActionIndex": 70
+      "DebugActionIndex": 79
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.Management.pdb",
@@ -1041,7 +1149,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.Management.pdb"
       ],
-      "DebugActionIndex": 71
+      "DebugActionIndex": 80
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.Oculus.dll",
@@ -1052,7 +1160,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.Oculus.dll"
       ],
-      "DebugActionIndex": 72
+      "DebugActionIndex": 81
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.Oculus.pdb",
@@ -1063,7 +1171,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.Oculus.pdb"
       ],
-      "DebugActionIndex": 73
+      "DebugActionIndex": 82
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.dll",
@@ -1074,7 +1182,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.dll"
       ],
-      "DebugActionIndex": 74
+      "DebugActionIndex": 83
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll",
@@ -1085,7 +1193,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll"
       ],
-      "DebugActionIndex": 75
+      "DebugActionIndex": 84
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.pdb",
@@ -1096,7 +1204,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.pdb"
       ],
-      "DebugActionIndex": 76
+      "DebugActionIndex": 85
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll",
@@ -1107,7 +1215,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll"
       ],
-      "DebugActionIndex": 77
+      "DebugActionIndex": 86
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.pdb",
@@ -1118,7 +1226,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.pdb"
       ],
-      "DebugActionIndex": 78
+      "DebugActionIndex": 87
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll",
@@ -1129,7 +1237,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll"
       ],
-      "DebugActionIndex": 79
+      "DebugActionIndex": 88
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.pdb",
@@ -1140,7 +1248,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.pdb"
       ],
-      "DebugActionIndex": 80
+      "DebugActionIndex": 89
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll",
@@ -1151,7 +1259,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll"
       ],
-      "DebugActionIndex": 81
+      "DebugActionIndex": 90
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.pdb",
@@ -1162,7 +1270,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.pdb"
       ],
-      "DebugActionIndex": 82
+      "DebugActionIndex": 91
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.pdb",
@@ -1173,7 +1281,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/Unity.XR.OpenXR.pdb"
       ],
-      "DebugActionIndex": 83
+      "DebugActionIndex": 92
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AccessibilityModule.dll",
@@ -1184,7 +1292,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AccessibilityModule.dll"
       ],
-      "DebugActionIndex": 84
+      "DebugActionIndex": 93
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AccessibilityModule.pdb",
@@ -1195,7 +1303,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AccessibilityModule.pdb"
       ],
-      "DebugActionIndex": 85
+      "DebugActionIndex": 94
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AIModule.dll",
@@ -1206,7 +1314,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AIModule.dll"
       ],
-      "DebugActionIndex": 86
+      "DebugActionIndex": 95
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AIModule.pdb",
@@ -1217,7 +1325,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AIModule.pdb"
       ],
-      "DebugActionIndex": 87
+      "DebugActionIndex": 96
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AndroidJNIModule.dll",
@@ -1228,7 +1336,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AndroidJNIModule.dll"
       ],
-      "DebugActionIndex": 88
+      "DebugActionIndex": 97
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AndroidJNIModule.pdb",
@@ -1239,7 +1347,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AndroidJNIModule.pdb"
       ],
-      "DebugActionIndex": 89
+      "DebugActionIndex": 98
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AnimationModule.dll",
@@ -1250,7 +1358,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AnimationModule.dll"
       ],
-      "DebugActionIndex": 90
+      "DebugActionIndex": 99
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AnimationModule.pdb",
@@ -1261,7 +1369,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AnimationModule.pdb"
       ],
-      "DebugActionIndex": 91
+      "DebugActionIndex": 100
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ARModule.dll",
@@ -1272,7 +1380,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ARModule.dll"
       ],
-      "DebugActionIndex": 92
+      "DebugActionIndex": 101
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ARModule.pdb",
@@ -1283,7 +1391,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ARModule.pdb"
       ],
-      "DebugActionIndex": 93
+      "DebugActionIndex": 102
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AssetBundleModule.dll",
@@ -1294,7 +1402,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AssetBundleModule.dll"
       ],
-      "DebugActionIndex": 94
+      "DebugActionIndex": 103
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AssetBundleModule.pdb",
@@ -1305,7 +1413,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AssetBundleModule.pdb"
       ],
-      "DebugActionIndex": 95
+      "DebugActionIndex": 104
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AudioModule.dll",
@@ -1316,7 +1424,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AudioModule.dll"
       ],
-      "DebugActionIndex": 96
+      "DebugActionIndex": 105
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AudioModule.pdb",
@@ -1327,7 +1435,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.AudioModule.pdb"
       ],
-      "DebugActionIndex": 97
+      "DebugActionIndex": 106
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ClothModule.dll",
@@ -1338,7 +1446,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ClothModule.dll"
       ],
-      "DebugActionIndex": 98
+      "DebugActionIndex": 107
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ClothModule.pdb",
@@ -1349,7 +1457,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ClothModule.pdb"
       ],
-      "DebugActionIndex": 99
+      "DebugActionIndex": 108
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ClusterInputModule.dll",
@@ -1360,7 +1468,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ClusterInputModule.dll"
       ],
-      "DebugActionIndex": 100
+      "DebugActionIndex": 109
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ClusterInputModule.pdb",
@@ -1371,7 +1479,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ClusterInputModule.pdb"
       ],
-      "DebugActionIndex": 101
+      "DebugActionIndex": 110
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ClusterRendererModule.dll",
@@ -1382,7 +1490,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ClusterRendererModule.dll"
       ],
-      "DebugActionIndex": 102
+      "DebugActionIndex": 111
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ClusterRendererModule.pdb",
@@ -1393,7 +1501,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ClusterRendererModule.pdb"
       ],
-      "DebugActionIndex": 103
+      "DebugActionIndex": 112
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.CoreModule.dll",
@@ -1404,7 +1512,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.CoreModule.dll"
       ],
-      "DebugActionIndex": 104
+      "DebugActionIndex": 113
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.CoreModule.pdb",
@@ -1415,7 +1523,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.CoreModule.pdb"
       ],
-      "DebugActionIndex": 105
+      "DebugActionIndex": 114
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.CrashReportingModule.dll",
@@ -1426,7 +1534,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.CrashReportingModule.dll"
       ],
-      "DebugActionIndex": 106
+      "DebugActionIndex": 115
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.CrashReportingModule.pdb",
@@ -1437,7 +1545,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.CrashReportingModule.pdb"
       ],
-      "DebugActionIndex": 107
+      "DebugActionIndex": 116
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.DirectorModule.dll",
@@ -1448,7 +1556,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.DirectorModule.dll"
       ],
-      "DebugActionIndex": 108
+      "DebugActionIndex": 117
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.DirectorModule.pdb",
@@ -1459,7 +1567,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.DirectorModule.pdb"
       ],
-      "DebugActionIndex": 109
+      "DebugActionIndex": 118
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.dll",
@@ -1470,7 +1578,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.dll"
       ],
-      "DebugActionIndex": 110
+      "DebugActionIndex": 119
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.DSPGraphModule.dll",
@@ -1481,7 +1589,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.DSPGraphModule.dll"
       ],
-      "DebugActionIndex": 111
+      "DebugActionIndex": 120
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.DSPGraphModule.pdb",
@@ -1492,7 +1600,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.DSPGraphModule.pdb"
       ],
-      "DebugActionIndex": 112
+      "DebugActionIndex": 121
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.GameCenterModule.dll",
@@ -1503,7 +1611,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.GameCenterModule.dll"
       ],
-      "DebugActionIndex": 113
+      "DebugActionIndex": 122
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.GameCenterModule.pdb",
@@ -1514,7 +1622,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.GameCenterModule.pdb"
       ],
-      "DebugActionIndex": 114
+      "DebugActionIndex": 123
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.GIModule.dll",
@@ -1525,7 +1633,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.GIModule.dll"
       ],
-      "DebugActionIndex": 115
+      "DebugActionIndex": 124
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.GIModule.pdb",
@@ -1536,7 +1644,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.GIModule.pdb"
       ],
-      "DebugActionIndex": 116
+      "DebugActionIndex": 125
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.GridModule.dll",
@@ -1547,7 +1655,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.GridModule.dll"
       ],
-      "DebugActionIndex": 117
+      "DebugActionIndex": 126
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.GridModule.pdb",
@@ -1558,7 +1666,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.GridModule.pdb"
       ],
-      "DebugActionIndex": 118
+      "DebugActionIndex": 127
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.HotReloadModule.dll",
@@ -1569,7 +1677,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.HotReloadModule.dll"
       ],
-      "DebugActionIndex": 119
+      "DebugActionIndex": 128
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.HotReloadModule.pdb",
@@ -1580,7 +1688,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.HotReloadModule.pdb"
       ],
-      "DebugActionIndex": 120
+      "DebugActionIndex": 129
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ImageConversionModule.dll",
@@ -1591,7 +1699,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ImageConversionModule.dll"
       ],
-      "DebugActionIndex": 121
+      "DebugActionIndex": 130
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ImageConversionModule.pdb",
@@ -1602,7 +1710,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ImageConversionModule.pdb"
       ],
-      "DebugActionIndex": 122
+      "DebugActionIndex": 131
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.IMGUIModule.dll",
@@ -1613,7 +1721,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.IMGUIModule.dll"
       ],
-      "DebugActionIndex": 123
+      "DebugActionIndex": 132
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.IMGUIModule.pdb",
@@ -1624,7 +1732,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.IMGUIModule.pdb"
       ],
-      "DebugActionIndex": 124
+      "DebugActionIndex": 133
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.InputLegacyModule.dll",
@@ -1635,7 +1743,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.InputLegacyModule.dll"
       ],
-      "DebugActionIndex": 125
+      "DebugActionIndex": 134
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.InputLegacyModule.pdb",
@@ -1646,7 +1754,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.InputLegacyModule.pdb"
       ],
-      "DebugActionIndex": 126
+      "DebugActionIndex": 135
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.InputModule.dll",
@@ -1657,7 +1765,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.InputModule.dll"
       ],
-      "DebugActionIndex": 127
+      "DebugActionIndex": 136
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.InputModule.pdb",
@@ -1668,7 +1776,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.InputModule.pdb"
       ],
-      "DebugActionIndex": 128
+      "DebugActionIndex": 137
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.JSONSerializeModule.dll",
@@ -1679,7 +1787,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.JSONSerializeModule.dll"
       ],
-      "DebugActionIndex": 129
+      "DebugActionIndex": 138
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.JSONSerializeModule.pdb",
@@ -1690,7 +1798,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.JSONSerializeModule.pdb"
       ],
-      "DebugActionIndex": 130
+      "DebugActionIndex": 139
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.LocalizationModule.dll",
@@ -1701,7 +1809,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.LocalizationModule.dll"
       ],
-      "DebugActionIndex": 131
+      "DebugActionIndex": 140
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.LocalizationModule.pdb",
@@ -1712,7 +1820,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.LocalizationModule.pdb"
       ],
-      "DebugActionIndex": 132
+      "DebugActionIndex": 141
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.NVIDIAModule.dll",
@@ -1723,7 +1831,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.NVIDIAModule.dll"
       ],
-      "DebugActionIndex": 133
+      "DebugActionIndex": 142
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.NVIDIAModule.pdb",
@@ -1734,7 +1842,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.NVIDIAModule.pdb"
       ],
-      "DebugActionIndex": 134
+      "DebugActionIndex": 143
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ParticleSystemModule.dll",
@@ -1745,7 +1853,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ParticleSystemModule.dll"
       ],
-      "DebugActionIndex": 135
+      "DebugActionIndex": 144
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ParticleSystemModule.pdb",
@@ -1756,7 +1864,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ParticleSystemModule.pdb"
       ],
-      "DebugActionIndex": 136
+      "DebugActionIndex": 145
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.pdb",
@@ -1767,7 +1875,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.pdb"
       ],
-      "DebugActionIndex": 137
+      "DebugActionIndex": 146
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
@@ -1778,7 +1886,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.PerformanceReportingModule.dll"
       ],
-      "DebugActionIndex": 138
+      "DebugActionIndex": 147
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.PerformanceReportingModule.pdb",
@@ -1789,7 +1897,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.PerformanceReportingModule.pdb"
       ],
-      "DebugActionIndex": 139
+      "DebugActionIndex": 148
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.Physics2DModule.dll",
@@ -1800,7 +1908,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.Physics2DModule.dll"
       ],
-      "DebugActionIndex": 140
+      "DebugActionIndex": 149
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.Physics2DModule.pdb",
@@ -1811,7 +1919,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.Physics2DModule.pdb"
       ],
-      "DebugActionIndex": 141
+      "DebugActionIndex": 150
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.PhysicsModule.dll",
@@ -1822,7 +1930,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.PhysicsModule.dll"
       ],
-      "DebugActionIndex": 142
+      "DebugActionIndex": 151
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.PhysicsModule.pdb",
@@ -1833,7 +1941,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.PhysicsModule.pdb"
       ],
-      "DebugActionIndex": 143
+      "DebugActionIndex": 152
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ProfilerModule.dll",
@@ -1844,7 +1952,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ProfilerModule.dll"
       ],
-      "DebugActionIndex": 144
+      "DebugActionIndex": 153
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ProfilerModule.pdb",
@@ -1855,7 +1963,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ProfilerModule.pdb"
       ],
-      "DebugActionIndex": 145
+      "DebugActionIndex": 154
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
@@ -1866,7 +1974,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
       ],
-      "DebugActionIndex": 146
+      "DebugActionIndex": 155
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb",
@@ -1877,7 +1985,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb"
       ],
-      "DebugActionIndex": 147
+      "DebugActionIndex": 156
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
@@ -1888,7 +1996,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ScreenCaptureModule.dll"
       ],
-      "DebugActionIndex": 148
+      "DebugActionIndex": 157
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ScreenCaptureModule.pdb",
@@ -1899,7 +2007,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.ScreenCaptureModule.pdb"
       ],
-      "DebugActionIndex": 149
+      "DebugActionIndex": 158
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SharedInternalsModule.dll",
@@ -1910,7 +2018,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SharedInternalsModule.dll"
       ],
-      "DebugActionIndex": 150
+      "DebugActionIndex": 159
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SharedInternalsModule.pdb",
@@ -1921,7 +2029,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SharedInternalsModule.pdb"
       ],
-      "DebugActionIndex": 151
+      "DebugActionIndex": 160
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SpatialTracking.dll",
@@ -1932,7 +2040,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SpatialTracking.dll"
       ],
-      "DebugActionIndex": 152
+      "DebugActionIndex": 161
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SpatialTracking.pdb",
@@ -1943,7 +2051,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SpatialTracking.pdb"
       ],
-      "DebugActionIndex": 153
+      "DebugActionIndex": 162
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SpriteMaskModule.dll",
@@ -1954,7 +2062,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SpriteMaskModule.dll"
       ],
-      "DebugActionIndex": 154
+      "DebugActionIndex": 163
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SpriteMaskModule.pdb",
@@ -1965,7 +2073,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SpriteMaskModule.pdb"
       ],
-      "DebugActionIndex": 155
+      "DebugActionIndex": 164
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SpriteShapeModule.dll",
@@ -1976,7 +2084,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SpriteShapeModule.dll"
       ],
-      "DebugActionIndex": 156
+      "DebugActionIndex": 165
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SpriteShapeModule.pdb",
@@ -1987,7 +2095,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SpriteShapeModule.pdb"
       ],
-      "DebugActionIndex": 157
+      "DebugActionIndex": 166
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.StreamingModule.dll",
@@ -1998,7 +2106,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.StreamingModule.dll"
       ],
-      "DebugActionIndex": 158
+      "DebugActionIndex": 167
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.StreamingModule.pdb",
@@ -2009,7 +2117,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.StreamingModule.pdb"
       ],
-      "DebugActionIndex": 159
+      "DebugActionIndex": 168
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SubstanceModule.dll",
@@ -2020,7 +2128,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SubstanceModule.dll"
       ],
-      "DebugActionIndex": 160
+      "DebugActionIndex": 169
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SubstanceModule.pdb",
@@ -2031,7 +2139,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SubstanceModule.pdb"
       ],
-      "DebugActionIndex": 161
+      "DebugActionIndex": 170
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SubsystemsModule.dll",
@@ -2042,7 +2150,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SubsystemsModule.dll"
       ],
-      "DebugActionIndex": 162
+      "DebugActionIndex": 171
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SubsystemsModule.pdb",
@@ -2053,7 +2161,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.SubsystemsModule.pdb"
       ],
-      "DebugActionIndex": 163
+      "DebugActionIndex": 172
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TerrainModule.dll",
@@ -2064,7 +2172,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TerrainModule.dll"
       ],
-      "DebugActionIndex": 164
+      "DebugActionIndex": 173
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TerrainModule.pdb",
@@ -2075,7 +2183,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TerrainModule.pdb"
       ],
-      "DebugActionIndex": 165
+      "DebugActionIndex": 174
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
@@ -2086,7 +2194,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TerrainPhysicsModule.dll"
       ],
-      "DebugActionIndex": 166
+      "DebugActionIndex": 175
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TerrainPhysicsModule.pdb",
@@ -2097,7 +2205,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TerrainPhysicsModule.pdb"
       ],
-      "DebugActionIndex": 167
+      "DebugActionIndex": 176
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
@@ -2108,7 +2216,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll"
       ],
-      "DebugActionIndex": 168
+      "DebugActionIndex": 177
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb",
@@ -2119,7 +2227,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb"
       ],
-      "DebugActionIndex": 169
+      "DebugActionIndex": 178
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
@@ -2130,7 +2238,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll"
       ],
-      "DebugActionIndex": 170
+      "DebugActionIndex": 179
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb",
@@ -2141,7 +2249,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb"
       ],
-      "DebugActionIndex": 171
+      "DebugActionIndex": 180
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TextRenderingModule.dll",
@@ -2152,7 +2260,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TextRenderingModule.dll"
       ],
-      "DebugActionIndex": 172
+      "DebugActionIndex": 181
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TextRenderingModule.pdb",
@@ -2163,7 +2271,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TextRenderingModule.pdb"
       ],
-      "DebugActionIndex": 173
+      "DebugActionIndex": 182
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TilemapModule.dll",
@@ -2174,7 +2282,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TilemapModule.dll"
       ],
-      "DebugActionIndex": 174
+      "DebugActionIndex": 183
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TilemapModule.pdb",
@@ -2185,7 +2293,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TilemapModule.pdb"
       ],
-      "DebugActionIndex": 175
+      "DebugActionIndex": 184
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TLSModule.dll",
@@ -2196,7 +2304,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TLSModule.dll"
       ],
-      "DebugActionIndex": 176
+      "DebugActionIndex": 185
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TLSModule.pdb",
@@ -2207,7 +2315,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.TLSModule.pdb"
       ],
-      "DebugActionIndex": 177
+      "DebugActionIndex": 186
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UI.dll",
@@ -2218,7 +2326,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UI.dll"
       ],
-      "DebugActionIndex": 178
+      "DebugActionIndex": 187
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UI.pdb",
@@ -2229,7 +2337,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UI.pdb"
       ],
-      "DebugActionIndex": 179
+      "DebugActionIndex": 188
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UIElementsModule.dll",
@@ -2240,7 +2348,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UIElementsModule.dll"
       ],
-      "DebugActionIndex": 180
+      "DebugActionIndex": 189
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UIElementsModule.pdb",
@@ -2251,7 +2359,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UIElementsModule.pdb"
       ],
-      "DebugActionIndex": 181
+      "DebugActionIndex": 190
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UIElementsNativeModule.dll",
@@ -2262,7 +2370,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UIElementsNativeModule.dll"
       ],
-      "DebugActionIndex": 182
+      "DebugActionIndex": 191
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UIElementsNativeModule.pdb",
@@ -2273,7 +2381,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UIElementsNativeModule.pdb"
       ],
-      "DebugActionIndex": 183
+      "DebugActionIndex": 192
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UIModule.dll",
@@ -2284,7 +2392,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UIModule.dll"
       ],
-      "DebugActionIndex": 184
+      "DebugActionIndex": 193
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UIModule.pdb",
@@ -2295,7 +2403,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UIModule.pdb"
       ],
-      "DebugActionIndex": 185
+      "DebugActionIndex": 194
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UmbraModule.dll",
@@ -2306,7 +2414,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UmbraModule.dll"
       ],
-      "DebugActionIndex": 186
+      "DebugActionIndex": 195
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UmbraModule.pdb",
@@ -2317,7 +2425,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UmbraModule.pdb"
       ],
-      "DebugActionIndex": 187
+      "DebugActionIndex": 196
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UNETModule.dll",
@@ -2328,7 +2436,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UNETModule.dll"
       ],
-      "DebugActionIndex": 188
+      "DebugActionIndex": 197
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UNETModule.pdb",
@@ -2339,7 +2447,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UNETModule.pdb"
       ],
-      "DebugActionIndex": 189
+      "DebugActionIndex": 198
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
@@ -2350,7 +2458,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityAnalyticsModule.dll"
       ],
-      "DebugActionIndex": 190
+      "DebugActionIndex": 199
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb",
@@ -2361,7 +2469,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb"
       ],
-      "DebugActionIndex": 191
+      "DebugActionIndex": 200
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityConnectModule.dll",
@@ -2372,7 +2480,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityConnectModule.dll"
       ],
-      "DebugActionIndex": 192
+      "DebugActionIndex": 201
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityConnectModule.pdb",
@@ -2383,7 +2491,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityConnectModule.pdb"
       ],
-      "DebugActionIndex": 193
+      "DebugActionIndex": 202
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityCurlModule.dll",
@@ -2394,7 +2502,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityCurlModule.dll"
       ],
-      "DebugActionIndex": 194
+      "DebugActionIndex": 203
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityCurlModule.pdb",
@@ -2405,7 +2513,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityCurlModule.pdb"
       ],
-      "DebugActionIndex": 195
+      "DebugActionIndex": 204
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
@@ -2416,7 +2524,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityTestProtocolModule.dll"
       ],
-      "DebugActionIndex": 196
+      "DebugActionIndex": 205
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityTestProtocolModule.pdb",
@@ -2427,7 +2535,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityTestProtocolModule.pdb"
       ],
-      "DebugActionIndex": 197
+      "DebugActionIndex": 206
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
@@ -2438,7 +2546,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
       ],
-      "DebugActionIndex": 198
+      "DebugActionIndex": 207
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb",
@@ -2449,7 +2557,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb"
       ],
-      "DebugActionIndex": 199
+      "DebugActionIndex": 208
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
@@ -2460,7 +2568,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
       ],
-      "DebugActionIndex": 200
+      "DebugActionIndex": 209
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb",
@@ -2471,7 +2579,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb"
       ],
-      "DebugActionIndex": 201
+      "DebugActionIndex": 210
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
@@ -2482,7 +2590,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestModule.dll"
       ],
-      "DebugActionIndex": 202
+      "DebugActionIndex": 211
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestModule.pdb",
@@ -2493,7 +2601,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestModule.pdb"
       ],
-      "DebugActionIndex": 203
+      "DebugActionIndex": 212
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
@@ -2504,7 +2612,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
       ],
-      "DebugActionIndex": 204
+      "DebugActionIndex": 213
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb",
@@ -2515,7 +2623,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb"
       ],
-      "DebugActionIndex": 205
+      "DebugActionIndex": 214
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
@@ -2526,7 +2634,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
       ],
-      "DebugActionIndex": 206
+      "DebugActionIndex": 215
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb",
@@ -2537,7 +2645,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb"
       ],
-      "DebugActionIndex": 207
+      "DebugActionIndex": 216
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VehiclesModule.dll",
@@ -2548,7 +2656,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VehiclesModule.dll"
       ],
-      "DebugActionIndex": 208
+      "DebugActionIndex": 217
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VehiclesModule.pdb",
@@ -2559,7 +2667,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VehiclesModule.pdb"
       ],
-      "DebugActionIndex": 209
+      "DebugActionIndex": 218
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VFXModule.dll",
@@ -2570,7 +2678,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VFXModule.dll"
       ],
-      "DebugActionIndex": 210
+      "DebugActionIndex": 219
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VFXModule.pdb",
@@ -2581,7 +2689,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VFXModule.pdb"
       ],
-      "DebugActionIndex": 211
+      "DebugActionIndex": 220
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VideoModule.dll",
@@ -2592,7 +2700,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VideoModule.dll"
       ],
-      "DebugActionIndex": 212
+      "DebugActionIndex": 221
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VideoModule.pdb",
@@ -2603,7 +2711,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VideoModule.pdb"
       ],
-      "DebugActionIndex": 213
+      "DebugActionIndex": 222
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
@@ -2614,7 +2722,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VirtualTexturingModule.dll"
       ],
-      "DebugActionIndex": 214
+      "DebugActionIndex": 223
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VirtualTexturingModule.pdb",
@@ -2625,7 +2733,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VirtualTexturingModule.pdb"
       ],
-      "DebugActionIndex": 215
+      "DebugActionIndex": 224
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VRModule.dll",
@@ -2636,7 +2744,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VRModule.dll"
       ],
-      "DebugActionIndex": 216
+      "DebugActionIndex": 225
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VRModule.pdb",
@@ -2647,7 +2755,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.VRModule.pdb"
       ],
-      "DebugActionIndex": 217
+      "DebugActionIndex": 226
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.WindModule.dll",
@@ -2658,7 +2766,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.WindModule.dll"
       ],
-      "DebugActionIndex": 218
+      "DebugActionIndex": 227
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.WindModule.pdb",
@@ -2669,7 +2777,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.WindModule.pdb"
       ],
-      "DebugActionIndex": 219
+      "DebugActionIndex": 228
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll",
@@ -2680,7 +2788,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll"
       ],
-      "DebugActionIndex": 220
+      "DebugActionIndex": 229
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.XR.LegacyInputHelpers.pdb",
@@ -2691,7 +2799,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.XR.LegacyInputHelpers.pdb"
       ],
-      "DebugActionIndex": 221
+      "DebugActionIndex": 230
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.XRModule.dll",
@@ -2702,7 +2810,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.XRModule.dll"
       ],
-      "DebugActionIndex": 222
+      "DebugActionIndex": 231
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.XRModule.pdb",
@@ -2713,7 +2821,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/UnityEngine.XRModule.pdb"
       ],
-      "DebugActionIndex": 223
+      "DebugActionIndex": 232
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/websocket-sharp.dll",
@@ -2724,7 +2832,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Managed/websocket-sharp.dll"
       ],
-      "DebugActionIndex": 224
+      "DebugActionIndex": 233
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info",
@@ -2735,7 +2843,7 @@
         "Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 225
+      "DebugActionIndex": 234
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/app.info",
@@ -2747,9 +2855,9 @@
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/app.info"
       ],
       "ToBuildDependencies": [
-        225
+        234
       ],
-      "DebugActionIndex": 226
+      "DebugActionIndex": 235
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Resources/unity default resources",
@@ -2760,7 +2868,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer_Data/Resources/unity default resources"
       ],
-      "DebugActionIndex": 227
+      "DebugActionIndex": 236
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/VR Multiplayer.exe",
@@ -2771,7 +2879,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/VR Multiplayer.exe"
       ],
-      "DebugActionIndex": 228
+      "DebugActionIndex": 237
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/UnityCrashHandler64.exe",
@@ -2782,7 +2890,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/UnityCrashHandler64.exe"
       ],
-      "DebugActionIndex": 229
+      "DebugActionIndex": 238
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/UnityPlayer.dll",
@@ -2793,7 +2901,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/UnityPlayer.dll"
       ],
-      "DebugActionIndex": 230
+      "DebugActionIndex": 239
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/WinPixEventRuntime.dll",
@@ -2804,7 +2912,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/WinPixEventRuntime.dll"
       ],
-      "DebugActionIndex": 231
+      "DebugActionIndex": 240
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
@@ -2815,7 +2923,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
       ],
-      "DebugActionIndex": 232
+      "DebugActionIndex": 241
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
@@ -2826,7 +2934,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
       ],
-      "DebugActionIndex": 233
+      "DebugActionIndex": 242
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/browscap.ini",
@@ -2837,7 +2945,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/browscap.ini"
       ],
-      "DebugActionIndex": 234
+      "DebugActionIndex": 243
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/config",
@@ -2848,7 +2956,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/config"
       ],
-      "DebugActionIndex": 235
+      "DebugActionIndex": 244
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
@@ -2859,7 +2967,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 236
+      "DebugActionIndex": 245
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/2.0/machine.config",
@@ -2870,7 +2978,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/2.0/machine.config"
       ],
-      "DebugActionIndex": 237
+      "DebugActionIndex": 246
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/2.0/settings.map",
@@ -2881,7 +2989,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/2.0/settings.map"
       ],
-      "DebugActionIndex": 238
+      "DebugActionIndex": 247
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/2.0/web.config",
@@ -2892,7 +3000,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/2.0/web.config"
       ],
-      "DebugActionIndex": 239
+      "DebugActionIndex": 248
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
@@ -2903,7 +3011,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 240
+      "DebugActionIndex": 249
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
@@ -2914,7 +3022,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 241
+      "DebugActionIndex": 250
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.0/machine.config",
@@ -2925,7 +3033,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.0/machine.config"
       ],
-      "DebugActionIndex": 242
+      "DebugActionIndex": 251
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.0/settings.map",
@@ -2936,7 +3044,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.0/settings.map"
       ],
-      "DebugActionIndex": 243
+      "DebugActionIndex": 252
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.0/web.config",
@@ -2947,7 +3055,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.0/web.config"
       ],
-      "DebugActionIndex": 244
+      "DebugActionIndex": 253
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
@@ -2958,7 +3066,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 245
+      "DebugActionIndex": 254
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
@@ -2969,7 +3077,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 246
+      "DebugActionIndex": 255
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.5/machine.config",
@@ -2980,7 +3088,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.5/machine.config"
       ],
-      "DebugActionIndex": 247
+      "DebugActionIndex": 256
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.5/settings.map",
@@ -2991,7 +3099,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.5/settings.map"
       ],
-      "DebugActionIndex": 248
+      "DebugActionIndex": 257
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.5/web.config",
@@ -3002,7 +3110,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.5/web.config"
       ],
-      "DebugActionIndex": 249
+      "DebugActionIndex": 258
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
@@ -3013,7 +3121,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 250
+      "DebugActionIndex": 259
     },
     {
       "Annotation": "CopyFiles E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/mconfig/config.xml",
@@ -3024,7 +3132,7 @@
       "Outputs": [
         "E:/Tamzid_2017331006 Thesis/test/MonoBleedingEdge/etc/mono/mconfig/config.xml"
       ],
-      "DebugActionIndex": 251
+      "DebugActionIndex": 260
     },
     {
       "Annotation": "Player",
@@ -3256,6 +3364,7 @@
         222,
         223,
         224,
+        225,
         226,
         227,
         228,
@@ -3264,7 +3373,6 @@
         231,
         232,
         233,
-        234,
         235,
         236,
         237,
@@ -3281,10 +3389,19 @@
         248,
         249,
         250,
-        251
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 252
+      "DebugActionIndex": 261
     }
   ],
   "FileSignatures": [
@@ -3411,6 +3528,15 @@
   ],
   "StatSignatures": [
     {
+      "File": "Assets/Photon/PhotonVoice/PhotonVoiceLibs/x86_64/AudioIn.dll"
+    },
+    {
+      "File": "Assets/Photon/PhotonVoice/PhotonVoiceLibs/x86_64/opus_egpv.dll"
+    },
+    {
+      "File": "Assets/Photon/PhotonVoice/PhotonVoiceLibs/x86_64/webrtc-audio.dll"
+    },
+    {
       "File": "C:/Program Files/Unity/Hub/Editor/2021.2.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport"
     },
     {
@@ -3499,7 +3625,7 @@
   "EmitDataForBeeWhy": 0,
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 252
+          "Player": 261
         }
 ,  "DefaultNodes": [
     0
